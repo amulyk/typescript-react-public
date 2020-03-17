@@ -6,7 +6,6 @@ export type Starships = {
   results: Starship[];
 };
 
-
 export type ErrorHttpAction = string;
 
 // Sync

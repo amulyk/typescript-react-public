@@ -22,6 +22,8 @@ export const Header: FC<PropTypes> = ({ title }: PropTypes) => {
     <>
       <h1>{content}</h1>
       <h3>{counter.toFixed()}</h3>
+      <button type="button" onClick={increase}>Increase</button>
+      <button type="button" onClick={decrease}>Decrease</button>
     </>
   );
 };

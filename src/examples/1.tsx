@@ -5,17 +5,11 @@ export interface PropInterfaces {
   children: ReactNode;
 }
 
-export function Component1(
-  {
-    children,
-    title,
-  }:
-    PropInterfaces,
-): ReactElement {
+export function Component1({ children, title }: PropInterfaces): ReactElement {
   return (
     <div>
       {title}
-      :
+:
       {children}
     </div>
   );

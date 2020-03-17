@@ -57,7 +57,7 @@ export const starshipsReducer = (
     case STARSHIPS_FETCH_ASYNC:
       return state;
     default:
-      // eslint-disable-next-line no-case-declarations
+      // eslint-disable-next-line no-case-declarations,@typescript-eslint/no-unused-vars
       const x: never = action;
   }
 
